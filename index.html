@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KIARA'S KITCHEN | Curd Rice</title>
     
-  <link rel="stylesheet" href="/Curd-Rice---Landing-Page/assets/index-1f22fe94.css">
+  <link rel="stylesheet" href="/Curd-Rice---Landing-Page/assets/index-81729117.css">
 </head>
 
 <body>
     <!-- header section -->
-    <header class="bg-teal-700 font-medium p-5 flex justify-between py-6">
+    <header class="bg-teal-700 font-medium sm:p-8 p-5 flex justify-between py-6">
         <span class="text-red-300 text-lg font-semibold hover:text-red-400 hover:cursor-pointer">KIARA'S KITCHEN</span>
         <div>
-            <ul class="flex items-center gap-5 text-teal-100">
+            <ul class="sm:flex hidden items-center gap-5 text-teal-100">
                 <li><a href="#home" class="hover:text-red-300" title="View-Home">Home</a></li>
                 <li><a href="#About" class="hover:text-red-300" title="View-About">About</a></li>
                 <li><a href="#Recipe" class="hover:text-red-300" title="View-Recipe">Recipe</a></li>
@@ -28,30 +28,41 @@
                         </svg>
                     </a></li>
             </ul>
+            <span class="text-teal-50 sm:hidden flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M0 3.75A.75.75 0 0 1 .75 3h14.5a.75.75 0 0 1 0 1.5H.75A.75.75 0 0 1 0 3.75ZM0 8a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H.75A.75.75 0 0 1 0 8Zm.75 3.5a.75.75 0 0 0 0 1.5h14.5a.75.75 0 0 0 0-1.5H.75Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </span>
         </div>
     </header>
     <main>
         <!-- home page -->
-        <section class="bg-teal-700 bg-opacity-90 flex items-center justify-center h-[500px]" id="home">
+        <section class="bg-teal-700 bg-opacity-90 flex items-center justify-center h-[500px] sm:flex-row flex-col sm:px-8 px-4"
+            id="home">
             <!-- <img src="./public/images/curdriceimage-2-removebg-preview.png" alt="" class="h-[400px]"> -->
-            <div class="flex">
-                <img src="/Curd-Rice---Landing-Page/assets/herosection-image-transformed-1-a11bf4c6.png" alt="" class="w-[350px] h-[350px]">
+            <div class="flex ">
+                <img src="/Curd-Rice---Landing-Page/assets/herosection-image-transformed-1-a11bf4c6.png" alt="" class="sm:w-[350px] sm:h-[350px] w-[250px] h-[250px]">
             </div>
             <div class="flex flex-col justify-center items-center">
-                <span class="font-medium text-teal-200 text-xl">"If someone says true love doesn't exist make them taste Curd rice"</span>
+                <span class="font-medium text-teal-200 text-xl text-center">"If someone says true love doesn't exist
+                    make them taste Curd rice"</span>
                 <a href="#About">
-                    <button class="bg-red-300 p-1 font-medium text-sm w-[100px] my-2 hover:bg-red-400 hover:text-teal-50" title="see more">Know More</button>
+                    <button
+                        class="bg-red-300 p-1 mt-2 font-medium text-sm w-[100px] my-2 hover:bg-red-400 hover:text-teal-50"
+                        title="see more">Know More</button>
                 </a>
-               
+
             </div>
         </section>
         <!-- about page -->
         <section id="About">
             <!-- About page -->
-            <section class="bg-teal-700 p-5 flex justify-center gap-x-20 items-center">
-                <div class="flex flex-col justify-center items-center w-[60%]">
+            <section class="bg-teal-700 sm:p-8 p-5 flex justify-center gap-x-20 items-center sm:flex-row flex-col-reverse ">
+                <div class="flex flex-col justify-center items-center mx-3 sm:w-[60%] w-[85%]">
                     <h3 class="text-red-300 font-medium text-xl py-4">About Curd Rice</h3>
-                    <ol class="text-justify text-teal-50 font-medium text-sm list-disc">
+                    <ol class="text-justify text-teal-50 font-medium text-sm list-disc ">
                         <li>
                             <p class="py-5">Curd Rice is a popular savory South Indian dish prepared with pre-cooked
                                 white rice and curd (yogurt). It is then tempered with oil (or ghee), mustard seeds,
@@ -76,14 +87,15 @@
             </section>
 
             <!-- benefits -->
-            <section class="bg-teal-700 bg-opacity-90 p-5 flex justify-center gap-x-20 items-center">
-                <div class="bg-red-300 w-[180px] h-[220px] relative rounded-lg flex justify-center items-center ">
+            <section
+                class="bg-teal-700 bg-opacity-90 sm:p-8 p-5 flex justify-center gap-x-20 items-center sm:flex-row flex-col-reverse">
+                <div class="bg-red-300 w-[180px] h-[220px] relative rounded-lg flex justify-center items-center my-5">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzBErq-hCONkTKThLMwx0csf9wfbhd3Crjpg41oSzEnbNDsxJ89IXGvERhwFiYaSNVSGQ&usqp=CAU"
                         alt="curdrice-image" class="absolute left-6 top-5 rounded-lg">
                 </div>
-                <div class="flex flex-col justify-center items-center w-[60%]">
+                <div class="flex flex-col justify-center items-center mx-3 sm:w-[60%] w-[85%]">
                     <h3 class="text-red-300 font-medium text-xl py-4">Health Benefits of Curd Rice</h3>
-                    <ol class="text-justify text-teal-50 font-medium text-sm list-disc">
+                    <ul class="text-justify text-teal-50 font-medium text-sm list-disc ">
                         <li>
                             <p class="py-3">It aids in digestion. It is the best home remedy for an upset stomach
                                 because it is easy to digest and works against bloating and indigestion.</p>
@@ -100,7 +112,7 @@
                             <p class="py-3">It helps maintain the body’s internal temperature and is a coolant for hot
                                 summer days</p>
                         </li>
-                    </ol>
+                    </ul>
                 </div>
 
             </section>
@@ -110,7 +122,13 @@
         <section class="bg-teal-700 p-5 pb-10" id="Recipe">
             <div class="flex flex-col justify-center items-center">
                 <h3 class="text-red-300 font-medium text-xl py-4">How to Make Curd Rice ? </h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/zu1OEFwaB8I?si=J2rAUmjGyP4W1LT0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <iframe class="w-[350px] h-[250px] mx-3 sm:w-[560px] sm:h-[315px]" width="560" height="315"
+                    src="https://www.youtube.com/embed/zu1OEFwaB8I?si=J2rAUmjGyP4W1LT0" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
 
                 <!-- <div class="gap-x-5 flex">
                     <button class="bg-teal-600 text-teal-50 py-1 px-2 font-medium text-sm">Ingridents</button>
@@ -154,38 +172,45 @@
             <!-- comments -->
             <section class="bg-teal-700 bg-opacity-90 p-5 py-16 flex flex-col items-center justify-center font-medium">
                 <h3 class="text-red-300 text-xl pb-3">Frequently Asked Questions</h3>
-                <div class="flex flex-col  justify-center w-[50%] py-3">
+                <div class="flex flex-col  justify-center sm:w-[75%] w-[85%] py-3">
                     <h2 class="text-teal-200 font-medium text-md">1) Is Curd rice healthy?</h2>
                     <p class="text-teal-50 font-medium text-sm text-justify">
-                        Yes, Curd rice has several health benefits. It is a good source of protein, calcium, fats and is rich in antioxidants. It also has
-friendly probiotic bacteria that help in digestion and maintain good bowel movements.
+                        Yes, Curd rice has several health benefits. It is a good source of protein, calcium, fats and is
+                        rich in antioxidants. It also has
+                        friendly probiotic bacteria that help in digestion and maintain good bowel movements.
                     </p>
                 </div>
-                <div class="flex flex-col  justify-center w-[50%] py-3">
+                <div class="flex flex-col  justify-center sm:w-[75%] w-[85%] py-3">
                     <h2 class="text-teal-200 font-medium text-md">2) Can I eat curd rice daily?</h2>
                     <p class="text-teal-50 font-medium text-sm text-justify">
                         Yes, the curd has probiotic goodness and cooling properties, which is good for the tummy.
                     </p>
                 </div>
-                <div class="flex flex-col  justify-center w-[50%] py-3">
-                    <h2 class="text-teal-200 font-medium text-md">3) What is the difference between Yogurt and Curd?</h2>
+                <div class="flex flex-col  justify-center sm:w-[75%] w-[85%] py-3">
+                    <h2 class="text-teal-200 font-medium text-md">3) What is the difference between Yogurt and Curd?
+                    </h2>
                     <p class="text-teal-50 font-medium text-sm text-justify">
-                        Curd and yogurt are two very different things. Curd is made by curdling the milk with edible acidic substances such as lemon juice or vinegar, whereas Yogurt is made by fermenting milk using bacteria.
-                        Dahi or curd is often used for yogurt in India, so if any Indian recipe says curd, you can use yogurt instead.
+                        Curd and yogurt are two very different things. Curd is made by curdling the milk with edible
+                        acidic substances such as lemon juice or vinegar, whereas Yogurt is made by fermenting milk
+                        using bacteria.
+                        Dahi or curd is often used for yogurt in India, so if any Indian recipe says curd, you can use
+                        yogurt instead.
                     </p>
                 </div>
-                
-                <div class="flex flex-col  justify-center w-[50%] py-3">
+
+                <div class="flex flex-col  justify-center sm:w-[75%] w-[85%] py-3">
                     <h2 class="text-teal-200 font-medium text-md">4) Is curd rice vegan?</h2>
                     <p class="text-teal-50 font-medium text-sm text-justify">
-                        No. If you are a vegan, use Vegan yogurt made from almond milk, coconut milk, cashew milk, or peanut milk instead of dairy curd.
+                        No. If you are a vegan, use Vegan yogurt made from almond milk, coconut milk, cashew milk, or
+                        peanut milk instead of dairy curd.
                     </p>
                 </div>
-                <div class="flex flex-col  justify-center w-[50%] py-3">
+                <div class="flex flex-col  justify-center sm:w-[75%] w-[85%] py-3">
                     <h2 class="text-teal-200 font-medium text-md">5) How to avoid yogurt rice from turning sour?</h2>
                     <p class="text-teal-50 font-medium text-sm text-justify">
                         1. Always mix the yogurt in the cooked rice just before serving.
-2. Yogurt rice can turn sour if u make it ahead in summer. So adding milk will prevent it from turning sour for a few hours.
+                        2. Yogurt rice can turn sour if u make it ahead in summer. So adding milk will prevent it from
+                        turning sour for a few hours.
                     </p>
                 </div>
                 <!-- <div class="flex flex-col  justify-center w-[50%] py-3">
@@ -201,55 +226,63 @@ friendly probiotic bacteria that help in digestion and maintain good bowel movem
                     </p>
                 </div> -->
 
-                <button class="bg-red-300 font-medium text-sm p-2 m-2 my-4 hover:bg-red-400 hover:text-teal-50">View More</button>
+                <button class="bg-red-300 font-medium text-sm p-2 m-2 my-4 hover:bg-red-400 hover:text-teal-50">View
+                    More</button>
 
             </section>
             <!-- add a comment -->
-            <section class="bg-teal-700 font-medium flex flex-col justify-center  items-center p-20">
-               <h3 class="text-red-300 text-xl pb-3">Leave a Comment</h3>
-               <form action="" class="py-10 w-[50%] bg-white bg-opacity-10 px-10 rounded-2xl shadow-2xl backdrop-filter backdrop-blur-xl">
-                <div class="flex  items-center gap-x-5">
-                    <div class="flex flex-col w-[50%]">
-                        <input type="text" id="Name" required placeholder="Your Name" class="bg-transparent outline-none">
-                        <hr class="border-teal-50 mt-2">  
+            <section class="bg-teal-700 font-medium flex flex-col justify-center  items-center sm:p-20 px-3 py-8">
+                <h3 class="text-red-300 text-xl pb-3">Leave a Comment</h3>
+                <form action=""
+                    class="py-10 sm:w-[85%] w-full bg-white bg-opacity-10 px-10 rounded-2xl shadow-2xl backdrop-filter backdrop-blur-xl">
+                    <div class="flex  items-center gap-x-5 ">
+                        <div class="flex flex-col w-[50%]">
+                            <input type="text" id="Name" required placeholder="Your Name"
+                                class="bg-transparent outline-none">
+                            <hr class="border-teal-50 mt-2">
+                        </div>
+                        <div class="flex flex-col py-3 w-[50%]">
+                            <input type="text" id="Name" required class="bg-transparent outline-none"
+                                placeholder="Last Name">
+                            <hr class="border-teal-50 mt-2">
+                        </div>
                     </div>
-                    <div class="flex flex-col py-3 w-[50%]">
-                        <input type="text" id="Name" required class="bg-transparent outline-none" placeholder="Last Name">
-                        <hr class="border-teal-50 mt-2">
+                    <div class="flex  items-center gap-x-5 py-3">
+                        <div class="flex flex-col w-[50%]">
+                            <input type="text" id="email" required placeholder="Email-id"
+                                class="bg-transparent outline-none">
+                            <hr class="border-teal-50 mt-2">
+                        </div>
+                        <div class="flex flex-col py-3 w-[50%]">
+                            <input type="text" id="Number" class="bg-transparent outline-none"
+                                placeholder="Your Mobile-No">
+                            <hr class="border-teal-50 mt-2">
+                        </div>
                     </div>
-                </div>
-                <div class="flex  items-center gap-x-5 py-3">
-                    <div class="flex flex-col w-[50%]">
-                        <input type="text" id="email" required placeholder="Email-id" class="bg-transparent outline-none">
-                        <hr class="border-teal-50 mt-2">  
+
+                    <div class="flex flex-col py-3">
+                        <textarea id="message" rows="5" class="bg-transparent outline-none"
+                            placeholder="Enter Your Message here...."></textarea>
+                        <hr class="border-teal-50 ">
                     </div>
-                    <div class="flex flex-col py-3 w-[50%]">
-                        <input type="text" id="Number" class="bg-transparent outline-none" placeholder="Your Mobile-No">
-                        <hr class="border-teal-50 mt-2">
+                    <div class="flex justify-center py-3">
+                        <button type="submit"
+                            class="px-5 py-2 bg-red-300 text-gray-900 hover:bg-red-400 rounded-md hover:text-teal-50">Submit</button>
                     </div>
-                </div>
-                
-                <div class="flex flex-col py-3">
-                    <textarea id="message" rows="5" class="bg-transparent outline-none" placeholder="Enter Your Message here...."></textarea>
-                    <hr class="border-teal-50 ">
-                </div>
-                <div class="flex justify-center py-3">
-                    <button type="submit" class="px-5 py-2 bg-red-300 text-gray-900 hover:bg-red-400 rounded-md hover:text-teal-50">Submit</button>
-                </div>
-                
-               </form>
+
+                </form>
             </section>
         </section>
 
     </main>
     <footer>
 
-        <section class="bg-teal-700 bg-opacity-90 flex justify-between items-center py-5">
-            <div class="text-teal-50 p-5 flex font-medium text-md items-center gap-x-20">
+        <section class="bg-teal-700 bg-opacity-90 flex justify-between items-center py-5 sm:flex-row flex-col">
+            <div class="text-teal-50 sm:p-8 px-3 py-2 flex font-medium text-md items-center sm:gap-x-20 gap-x-2">
                 <div>
                     <span class="text-red-300">connectwithkiarskitchen@gmail.com</span>
                     <hr class="border-teal-50 border-1 py-1">
-                    <div class="flex gap-x-4">
+                    <div class="flex gap-x-4 items-center justify-center">
                         <!-- instagram icon -->
                         <a href="https://www.instagram.com/" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
@@ -300,8 +333,8 @@ friendly probiotic bacteria that help in digestion and maintain good bowel movem
                 </div>
 
             </div>
-            
-            <div class="flex flex-col   font-medium p-5">
+
+            <div class="flex flex-col   font-medium sm:p-5 px-3 py-2">
                 <span class="text-red-300 text-lg py-1">Newsletter</span>
                 <div>
                     <input type="text" placeholder="Enter Your Email-id" class="outline-none px-2 py-1 rounded-md">
@@ -310,12 +343,18 @@ friendly probiotic bacteria that help in digestion and maintain good bowel movem
             </div>
         </section>
         <hr class="border-red-300 border-2">
-        <section class="bg-teal-700  p-5 font-medium text-sm text-teal-50 text-center ">
-            <span class="px-4">Designed by <a href="https://github.com/" title="view-profile" target="_blank"><strong class="text-red-300 hover:text-red-400">Muthu Akalya A</strong></a></span>
-            <span> - </span>
-            <span class="px-4">This Project is a part of <a href="https://www.cyberdudenetworks.com/" class="" title="view-company" target="_blank"><strong class="text-md text-red-300 hover:text-red-400">Cyberdude Networks</strong> </a>Internship program</span>
-            <span> - </span>
-            <span class="px-4">Mentored by <a href="https://github.com/anburocky3" title="view-profile" target="_blank"><strong class="text-red-300 hover:text-red-400">Mr.Anbuselvan Rocky</strong></a></span>
+        <section class="bg-teal-700  sm:p-5  py-3 font-medium text-sm text-teal-50 text-center flex flex-col">
+            <span class="sm:px-4 px-2 py-1">Designed by <a href="https://github.com/" title="view-profile" target="_blank"><strong
+                        class="text-red-300 hover:text-red-400">Muthu Akalya A</strong></a></span>
+            <span class="sm:block hidden"> - </span>
+            <span class="sm:px-4 px-2 py-1">This Project is a part of <a href="https://www.cyberdudenetworks.com/" class=""
+                    title="view-company" target="_blank"><strong
+                        class="text-md text-red-300 hover:text-red-400">Cyberdude Networks</strong> </a>Internship
+                program</span>
+            <!-- <span class="sm-block hidden"> - </span>
+            <span class="sm:px-4 px-2 py-1 hidden">Mentored by <a href="https://github.com/anburocky3" title="view-profile"
+                    target="_blank"><strong class="text-red-300 hover:text-red-400">Mr.Anbuselvan
+                        Rocky</strong></a></span> -->
         </section>
     </footer>
 
