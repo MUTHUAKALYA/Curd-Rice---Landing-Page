@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2023/06/03/14/48/woman-8037822_1280.png" type="image/x-icon">
     <title>KIARA'S KITCHEN | Curd Rice</title>
     <link rel="stylesheet" href="./main.css">
 </head>
@@ -11,14 +12,14 @@
 <body>
     <!-- header section -->
     <header class="bg-teal-700 font-medium sm:p-8 p-5 flex justify-between py-6">
-        <span class="text-red-300 text-lg font-semibold hover:text-red-400 hover:cursor-pointer">KIARA'S KITCHEN</span>
+        <span class="text-red-300 text-lg font-black hover:text-red-400 hover:cursor-pointer">KIARA'S KITCHEN</span>
         <div>
-            <ul class="sm:flex hidden items-center gap-5 text-teal-100">
+            <ul class="sm:flex hidden items-center gap-5 text-teal-100 font-semibold space-x-5">
                 <li><a href="#home" class="hover:text-red-300" title="View-Home">Home</a></li>
                 <li><a href="#About" class="hover:text-red-300" title="View-About">About</a></li>
                 <li><a href="#Recipe" class="hover:text-red-300" title="View-Recipe">Recipe</a></li>
                 <li><a href="#Varieties" class="hover:text-red-300" title="View-Varieties">Varieties</a></li>
-                <li><a href="https://github.com/MUTHUAKALYA/Curd-Rice---Landing-Page" class="hover:text-red-300"
+                <li><a href="https://github.com/MUTHUAKALYA/Curd-Rice---Landing-Page" target="_blank" title="View-Source" class="hover:text-red-300"
                         title="view-Github-Source">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path fill="currentColor" fill-rule="evenodd"
@@ -27,7 +28,7 @@
                         </svg>
                     </a></li>
             </ul>
-            <span class="text-teal-50 sm:hidden flex">
+            <span class="text-red-300 sm:hidden flex">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
                     <path fill="currentColor" fill-rule="evenodd"
                         d="M0 3.75A.75.75 0 0 1 .75 3h14.5a.75.75 0 0 1 0 1.5H.75A.75.75 0 0 1 0 3.75ZM0 8a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H.75A.75.75 0 0 1 0 8Zm.75 3.5a.75.75 0 0 0 0 1.5h14.5a.75.75 0 0 0 0-1.5H.75Z"
@@ -36,20 +37,21 @@
             </span>
         </div>
     </header>
+    <hr class="border border-red-300">
     <main>
         <!-- home page -->
-        <section class="bg-teal-700 bg-opacity-90 flex items-center justify-center h-[500px] sm:flex-row flex-col sm:px-8 px-4"
+        <section class="bg-teal-700 bg-opacity-90 flex items-center justify-center  sm:flex-row flex-col sm:px-8 px-4 py-16"
             id="home">
-            <!-- <img src="./public/images/curdriceimage-2-removebg-preview.png" alt="" class="h-[400px]"> -->
-            <div class="flex ">
-                <img src="./public/images/herosection-image-transformed-1.png" alt="" class="sm:w-[350px] sm:h-[350px] w-[250px] h-[250px]">
+            
+            <div class="flex items-center justify-center m-10">
+                <img src="./public/images/curdrice.png" alt="" class="">
             </div>
-            <div class="flex flex-col justify-center items-center">
+            <div class="flex flex-col justify-center items-center space-y-2">
                 <span class="font-medium text-teal-200 text-xl text-center">"If someone says true love doesn't exist
                     make them taste Curd rice"</span>
                 <a href="#About">
                     <button
-                        class="bg-red-300 p-1 mt-2 font-medium text-sm w-[100px] my-2 hover:bg-red-400 hover:text-teal-50"
+                        class="bg-red-300 px-2 py-1 mt-2 font-medium text-sm w-[100px] my-2 rounded-md hover:bg-red-400 hover:text-teal-50"
                         title="see more">Know More</button>
                 </a>
 
@@ -58,9 +60,9 @@
         <!-- about page -->
         <section id="About">
             <!-- About page -->
-            <section class="bg-teal-700 sm:p-8 p-5 flex justify-center gap-x-20 items-center sm:flex-row flex-col-reverse ">
+            <section class="bg-teal-700 sm:p-8 p-5 py-16 flex justify-center gap-x-20 items-center sm:flex-row flex-col ">
                 <div class="flex flex-col justify-center items-center mx-3 sm:w-[60%] w-[85%]">
-                    <h3 class="text-red-300 font-medium text-xl py-4">About Curd Rice</h3>
+                    <h3 class="text-red-300 font-bold text-xl py-4">About Curd Rice</h3>
                     <ol class="text-justify text-teal-50 font-medium text-sm list-disc ">
                         <li>
                             <p class="py-5">Curd Rice is a popular savory South Indian dish prepared with pre-cooked
@@ -87,14 +89,14 @@
 
             <!-- benefits -->
             <section
-                class="bg-teal-700 bg-opacity-90 sm:p-8 p-5 flex justify-center gap-x-20 items-center sm:flex-row flex-col-reverse">
+                class="bg-teal-700 bg-opacity-90 sm:p-8 p-5 py-16 flex justify-center gap-x-20 items-center sm:flex-row flex-col-reverse">
                 <div class="bg-red-300 w-[180px] h-[220px] relative rounded-lg flex justify-center items-center my-5">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzBErq-hCONkTKThLMwx0csf9wfbhd3Crjpg41oSzEnbNDsxJ89IXGvERhwFiYaSNVSGQ&usqp=CAU"
                         alt="curdrice-image" class="absolute left-6 top-5 rounded-lg">
                 </div>
                 <div class="flex flex-col justify-center items-center mx-3 sm:w-[60%] w-[85%]">
-                    <h3 class="text-red-300 font-medium text-xl py-4">Health Benefits of Curd Rice</h3>
-                    <ul class="text-justify text-teal-50 font-medium text-sm list-disc ">
+                    <h3 class="text-red-300 font-bold text-xl py-4">Health Benefits of Curd Rice</h3>
+                    <ul class="text-justify text-teal-50 font-semibold text-sm list-disc ">
                         <li>
                             <p class="py-3">It aids in digestion. It is the best home remedy for an upset stomach
                                 because it is easy to digest and works against bloating and indigestion.</p>
@@ -120,7 +122,7 @@
         <!-- Recipe page -->
         <section class="bg-teal-700 p-5 pb-10" id="Recipe">
             <div class="flex flex-col justify-center items-center">
-                <h3 class="text-red-300 font-medium text-xl py-4">How to Make Curd Rice ? </h3>
+                <h3 class="text-red-300 font-bold text-xl py-4">How to Make Curd Rice ? </h3>
 
                 <iframe class="w-[350px] h-[250px] mx-3 sm:w-[560px] sm:h-[315px]" width="560" height="315"
                     src="https://www.youtube.com/embed/zu1OEFwaB8I?si=J2rAUmjGyP4W1LT0" title="YouTube video player"
@@ -170,24 +172,26 @@
         <section id="">
             <!-- comments -->
             <section class="bg-teal-700 bg-opacity-90 p-5 py-16 flex flex-col items-center justify-center font-medium">
-                <h3 class="text-red-300 text-xl pb-3">Frequently Asked Questions</h3>
+                <h3 class="text-red-300 text-xl pb-3 font-bold">Frequently Asked Questions</h3>
                 <div class="flex flex-col  justify-center sm:w-[75%] w-[85%] py-3">
-                    <h2 class="text-teal-200 font-medium text-md">1) Is Curd rice healthy?</h2>
-                    <p class="text-teal-50 font-medium text-sm text-justify">
-                        Yes, Curd rice has several health benefits. It is a good source of protein, calcium, fats and is
-                        rich in antioxidants. It also has
-                        friendly probiotic bacteria that help in digestion and maintain good bowel movements.
-                    </p>
+                    <details class="text-teal-200 font-medium text-md"><summary>1) Is Curd rice healthy?</summary>
+                        <p class="text-teal-50 font-medium text-sm text-justify"> Yes, Curd rice has several health benefits. It is a good source of protein, calcium, fats and is
+                            rich in antioxidants. It also has
+                            friendly probiotic bacteria that help in digestion and maintain good bowel movements.</p>
+                    </details>
+                   
+                   
                 </div>
                 <div class="flex flex-col  justify-center sm:w-[75%] w-[85%] py-3">
-                    <h2 class="text-teal-200 font-medium text-md">2) Can I eat curd rice daily?</h2>
+                    <Details class="text-teal-200 font-medium text-md"><summary>2) Can I eat curd rice daily?</summary>
                     <p class="text-teal-50 font-medium text-sm text-justify">
                         Yes, the curd has probiotic goodness and cooling properties, which is good for the tummy.
                     </p>
+                </Details>
                 </div>
                 <div class="flex flex-col  justify-center sm:w-[75%] w-[85%] py-3">
-                    <h2 class="text-teal-200 font-medium text-md">3) What is the difference between Yogurt and Curd?
-                    </h2>
+                    <Details class="text-teal-200 font-medium text-md"><summary>3) What is the difference between Yogurt and Curd?</summary>
+                  
                     <p class="text-teal-50 font-medium text-sm text-justify">
                         Curd and yogurt are two very different things. Curd is made by curdling the milk with edible
                         acidic substances such as lemon juice or vinegar, whereas Yogurt is made by fermenting milk
@@ -195,45 +199,50 @@
                         Dahi or curd is often used for yogurt in India, so if any Indian recipe says curd, you can use
                         yogurt instead.
                     </p>
+                </Details>
                 </div>
 
                 <div class="flex flex-col  justify-center sm:w-[75%] w-[85%] py-3">
-                    <h2 class="text-teal-200 font-medium text-md">4) Is curd rice vegan?</h2>
-                    <p class="text-teal-50 font-medium text-sm text-justify">
-                        No. If you are a vegan, use Vegan yogurt made from almond milk, coconut milk, cashew milk, or
-                        peanut milk instead of dairy curd.
-                    </p>
+                    <Details class="text-teal-200 font-medium text-md"><summary>4) Is curd rice vegan?</summary>
+                        <p class="text-teal-50 font-medium text-sm text-justify">
+                            No. If you are a vegan, use Vegan yogurt made from almond milk, coconut milk, cashew milk, or
+                            peanut milk instead of dairy curd.
+                        </p></Details>
+                    
                 </div>
                 <div class="flex flex-col  justify-center sm:w-[75%] w-[85%] py-3">
-                    <h2 class="text-teal-200 font-medium text-md">5) How to avoid yogurt rice from turning sour?</h2>
-                    <p class="text-teal-50 font-medium text-sm text-justify">
-                        1. Always mix the yogurt in the cooked rice just before serving.
-                        2. Yogurt rice can turn sour if u make it ahead in summer. So adding milk will prevent it from
-                        turning sour for a few hours.
-                    </p>
+                    <Details class="text-teal-200 font-medium text-md"><summary>5) How to avoid yogurt rice from turning sour?</summary>
+                        <p class="text-teal-50 font-medium text-sm text-justify">
+                            1. Always mix the yogurt in the cooked rice just before serving.
+                            2. Yogurt rice can turn sour if u make it ahead in summer. So adding milk will prevent it from
+                            turning sour for a few hours.
+                        </p></Details>
+                  
                 </div>
-                <!-- <div class="flex flex-col  justify-center w-[50%] py-3">
-                    <h2 class="text-teal-200 font-medium text-md">6) How to pack curd rice for the lunch box?</h2>
-                    <p class="text-teal-50 font-medium text-sm text-justify">
-                        It is a great meal to pack for school or work lunches or when you are on a journey. Ensure to add more milk along with curd to prevent it from turning sour.
-                    </p>
+                <div class="flex flex-col  justify-center sm:w-[75%] w-[85%] py-3">
+                    <Details class="text-teal-200 font-medium text-md"><summary>6) How to pack curd rice for the lunch box?</summary>
+                        <p class="text-teal-50 font-medium text-sm text-justify">
+                            It is a great meal to pack for school or work lunches or when you are on a journey. Ensure to add more milk along with curd to prevent it from turning sour.
+                        </p></Details>
+                  
                 </div>
-                <div class="flex flex-col  justify-center w-[50%] py-3">
-                    <h2 class="text-teal-200 font-medium text-md">7) Can I heat Indian yogurt rice? </h2>
-                    <p class="text-teal-50 font-medium text-sm text-justify">
-                        Curd rice is best enjoyed cold or at room temperature. When it is heated or warmed, friendly probiotic bacteria present in it are destroyed. Also, curd may likely break down and curdle.
-                    </p>
-                </div> -->
+                <div class="flex flex-col  justify-center sm:w-[75%] w-[85%] py-3">
+                    <Details class="text-teal-200 font-medium text-md"><summary>7) Can I heat Indian yogurt rice? </summary>
+                        <p class="text-teal-50 font-medium text-sm text-justify">
+                            Curd rice is best enjoyed cold or at room temperature. When it is heated or warmed, friendly probiotic bacteria present in it are destroyed. Also, curd may likely break down and curdle.
+                        </p></Details>
+                  
+                </div>
 
-                <button class="bg-red-300 font-medium text-sm p-2 m-2 my-4 hover:bg-red-400 hover:text-teal-50">View
+                <button class="bg-red-300 font-medium text-sm p-2 m-2 my-4 hover:bg-red-400 hover:text-teal-50  rounded-md">View
                     More</button>
 
             </section>
             <!-- add a comment -->
-            <section class="bg-teal-700 font-medium flex flex-col justify-center  items-center sm:p-20 px-3 py-8">
-                <h3 class="text-red-300 text-xl pb-3">Leave a Comment</h3>
+            <section class="bg-teal-700 font-medium flex flex-col justify-center  items-center sm:p-20 px-3 py-16">
+                <h3 class="text-red-300 text-xl  font-bold pb-5">Leave a Comment</h3>
                 <form action=""
-                    class="py-10 sm:w-[85%] w-full bg-white bg-opacity-10 px-10 rounded-2xl shadow-2xl backdrop-filter backdrop-blur-xl">
+                    class="py-16 md:w-[75%] w-full bg-white bg-opacity-10 px-10 rounded-2xl shadow-2xl backdrop-filter backdrop-blur-xl text-gray-300">
                     <div class="flex  items-center gap-x-5 ">
                         <div class="flex flex-col w-[50%]">
                             <input type="text" id="Name" required placeholder="Your Name"
@@ -276,7 +285,7 @@
     </main>
     <footer>
 
-        <section class="bg-teal-700 bg-opacity-90 flex justify-between items-center py-5 sm:flex-row flex-col">
+        <section class="bg-teal-700 bg-opacity-90 flex justify-between items-center py-5 sm:flex-row  flex-col-reverse gap-y-6">
             <div class="text-teal-50 sm:p-8 px-3 py-2 flex font-medium text-md items-center sm:gap-x-20 gap-x-2">
                 <div>
                     <span class="text-red-300">connectwithkiarskitchen@gmail.com</span>
@@ -333,16 +342,16 @@
 
             </div>
 
-            <div class="flex flex-col   font-medium sm:p-5 px-3 py-2">
-                <span class="text-red-300 text-lg py-1">Newsletter</span>
+            <div class="flex flex-col   font-medium sm:p-5 px-3 py-2 gap-y-1">
+                <span class="text-red-300 text-lg py-1 font-bold">Newsletter</span>
                 <div>
-                    <input type="text" placeholder="Enter Your Email-id" class="outline-none px-2 py-1 rounded-md">
-                    <button class="bg-teal-600 px-2 py-1 text-teal-50 rounded-md">Submit</button>
+                    <input type="text" placeholder="Enter Your Email-id" class="outline-none px-5 py-1 rounded-md">
+                    <button class="bg-teal-600 px-5 py-1 text-teal-50 rounded-md hover:text-red-300">Submit</button>
                 </div>
             </div>
         </section>
         <hr class="border-red-300 border-2">
-        <section class="bg-teal-700  sm:p-5  py-3 font-medium text-sm text-teal-50 text-center flex flex-col">
+        <section class="bg-teal-700  sm:p-5  py-3 font-medium text-sm text-teal-50 text-center flex flex-col px-5 ">
             <span class="sm:px-4 px-2 py-1">Designed by <a href="https://github.com/" title="view-profile" target="_blank"><strong
                         class="text-red-300 hover:text-red-400">Muthu Akalya A</strong></a></span>
             <span class="sm:block hidden"> - </span>
