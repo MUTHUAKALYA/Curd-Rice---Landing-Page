@@ -25,6 +25,10 @@ This specific task designed by the Cyberdude Networks Pvt. Ltd, We had to sketch
 ✨**Live Link is Here**: https://muthuakalya.github.io/Curd-Rice---Landing-Page/
 <br>
 
+![curd-rice-landing-page-output](./public/images/Curd-rice-landing-page.jpeg)
+
+
+![mobile-view-of-landing-page](./public/images/mobile-view.jpeg)
 
 ## Internship
 
@@ -49,8 +53,6 @@ Feel free to contribute to this project by "Forking" this repo, and Add a PR for
 
 MIT
 
-<!-- ## Acknowledgments
-Inspiration - Zero To Mastery | The Odin Project | Python Official Documentation. -->
 
 
 ---
