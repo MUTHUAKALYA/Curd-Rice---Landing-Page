@@ -3,7 +3,7 @@
 Cyberdude Networks Pvt. Ltd Internship Project # 5 - **Curd Rice Landing page**.
 
 ## Table of Contents
-- [Cyberdude Python Community Landing Page By Muthu Akalya 🚀](#cyberdude-python-community-landing-page-by-Muthu-Akalya-)
+- [Cyberdude Curd Rice Landing Page By Muthu Akalya 🚀](#cyberdude-Curd-Rice-landing-page-by-Muthu-Akalya-)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Demo](#demo)
@@ -37,8 +37,8 @@ HTML 5 | Tailwind CSS | Vite
 ## Features
 
 - Mobile responsive. 
-- Floating card on Main Hero Section. 
-- A Unique header bar. 
+- Accordion on FAQ Section.
+- Visually appealing UI
 
 
 ## Contributing
