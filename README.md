@@ -1,4 +1,4 @@
-# Curd Rice Landing Page By Muthu Akalya 🚀
+# Curd Rice Landing Page By Muthu Akalya 
 
 Cyberdude Networks Pvt. Ltd Internship Project # 5 - **Curd Rice Landing page**.
 
